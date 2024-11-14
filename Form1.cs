@@ -46,9 +46,9 @@ namespace PGTA_Third_Project
 
                 // Leer cada línea restante del archivo
                 string line;
-                while ((line = reader.ReadLine()) != null && count < 3) // Limitar a los tres primeros valores
+                while ((line = reader.ReadLine()) != null && count < 20) // Limitar a los tres primeros valores
                 {
-                    // Dividir la línea en columnas usando ',' como separador
+                    // Dividir la línea en columnas usando ';' como separador
                     string[] columns = line.Split(';');
 
                     // Verificar que haya al menos una columna antes de agregar
